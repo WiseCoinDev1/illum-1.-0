@@ -1,0 +1,20 @@
+<!DOCTYPE RCC><RCC version="1.0">
+    <qresource prefix="/translations">
+        <file alias="bg">locale/illuminum_bg.qm</file>
+        <file alias="de">locale/illuminum_de.qm</file>
+        <file alias="en">locale/illuminum_en.qm</file>
+        <file alias="es">locale/illuminum_es.qm</file>
+        <file alias="fi">locale/illuminum_fi.qm</file>
+        <file alias="fr">locale/illuminum_fr.qm</file>
+        <file alias="it">locale/illuminum_it.qm</file>
+        <file alias="ja">locale/illuminum_ja.qm</file>
+        <file alias="pl">locale/illuminum_pl.qm</file>
+        <file alias="pt">locale/illuminum_pt.qm</file>
+        <file alias="ru">locale/illuminum_ru.qm</file>
+        <file alias="sk">locale/illuminum_sk.qm</file>
+        <file alias="sv">locale/illuminum_sv.qm</file>
+        <file alias="vi">locale/illuminum_vi.qm</file>
+        <file alias="zh_CN">locale/illuminum_zh_CN.qm</file>
+        <file alias="zh_TW">locale/illuminum_zh_TW.qm</file>
+    </qresource>
+</RCC>
