@@ -145,7 +145,7 @@ public:
 
         vFixedSeeds.clear();
         vSeeds.clear();
-        vSeeds.push_back(CDNSSeedData("104.156.249.248", ""));
+        vSeeds.push_back(CDNSSeedData("104.156.249.248", "96.245.126.165"));
         //vSeeds.push_back(CDNSSeedData("", ""));
 
         // Illuminum addresses start with 'S'
