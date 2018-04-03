@@ -114,10 +114,10 @@ public:
         consensus.vDeployments[Consensus::DEPLOYMENT_DIP0001].nThreshold = 3226; // 80% of 4032
 
         // The best chain should have at least this much work.
-        consensus.nMinimumChainWork = uint256S("0x0000000000000000000000000000000000000000000000000000000000b0001a"); // 10 block
+        consensus.nMinimumChainWork = uint256S("0x00000d9f83a32713225b912e753d09cf4e0bd35df080a8d985516881c64b3207"); // 17 block
 
         // By default assume that the signatures in ancestors of this block are valid.
-        consensus.defaultAssumeValid = uint256S("0x000008fdb7aaab336b933207cdbb820d574f09de0243837c67e102ed1601f801"); // 10 block
+        consensus.defaultAssumeValid = uint256S("0x0000074b97fc69cf5828e988fae56b9c8e3de2e79f95006470a860df75bcc461"); // 1 block
 
         /**
          * The message start string is designed to be unlikely to occur in normal data.
@@ -136,12 +136,12 @@ public:
 
         genesis = CreateGenesisBlock(1522601880, 808737, 0x1e0ffff0, 1, 20 * COIN);
         consensus.hashGenesisBlock = genesis.GetHash();
-        assert(consensus.hashGenesisBlock == uint256S("0x0000074b97fc69cf5828e988fae56b9c8e3de2e79f95006470a860df75bcc461"));
+        assert(consensus.hashGenesisBlock == uint256S("0x000009fa4baba822c24be06132ef4cd2a18bc8fc0a441cb0b3e2cfacc8ed92bf"));
         assert(genesis.hashMerkleRoot == uint256S("0x8e34f9ce24f284625dcb352a010b049c94dd397c51cdfde024dfdd0382df2171"));
 
         vFixedSeeds.clear();
         vSeeds.clear();
-        vSeeds.push_back(CDNSSeedData("104.156.249.248", "6555"));
+        vSeeds.push_back(CDNSSeedData("104.156.249.248", "96.245.126.165"));
         //vSeeds.push_back(CDNSSeedData("", ""));
 
         // Illuminum addresses start with 'S'
@@ -172,9 +172,9 @@ public:
 
         checkpointData = (CCheckpointData) {
             boost::assign::map_list_of
-            (    0, uint256S("0x0000074b97fc69cf5828e988fae56b9c8e3de2e79f95006470a860df75bcc461")),
-            1522601880, // * UNIX timestamp of last checkpoint block
-            0,       // * total number of transactions between genesis and last checkpoint
+            (    1, uint256S("0x0000074b97fc69cf5828e988fae56b9c8e3de2e79f95006470a860df75bcc461"));            
+	    1522601880, // * UNIX timestamp of last checkpoint block
+            1,       // * total number of transactions between genesis and last checkpoint
                         //   (the tx=... number in the SetBestChain debug.log lines)
             2800        // * estimated number of transactions per day after checkpoint
         };
