@@ -357,7 +357,7 @@ public:
         pchMessageStart[3] = 0xdc;
         nMaxTipAge = 6 * 60 * 60; // ~144 blocks behind -> 2 x fork detection time, was 24 * 60 * 60 in bitcoin
         nDelayGetHeadersTime = 0; // never delay GETHEADERS in regtests
-        nDefaultPort = 32555;
+        nDefaultPort = 2555;
         nPruneAfterHeight = 1000;
 
         genesis = CreateGenesisBlock(1522601886, 506378264, 0x1e0ffff0, 1, 20 * COIN);
