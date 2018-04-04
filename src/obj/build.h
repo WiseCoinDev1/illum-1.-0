@@ -1,1 +1,2 @@
-#define BUILD_SUFFIX -dirty
+#define BUILD_SUFFIX 989036d-clean
+#define BUILD_DATE "2018-04-02 20:06:34 -0400"
